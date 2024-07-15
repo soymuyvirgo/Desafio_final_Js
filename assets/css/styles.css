@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#conversor {
+    background-color: #21087a;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+canvas {
+    margin-top: 20px;
+}
